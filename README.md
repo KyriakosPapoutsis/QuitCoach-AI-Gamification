@@ -83,7 +83,6 @@ Below are selected screenshots from the **QuitCoach** app, showcasing its main f
   <img src="docs/screenshots/badges-6.png" width="200" />
   <img src="docs/screenshots/badges-7.png" width="200" />
   <img src="docs/screenshots/badges-8.png" width="200" />
-  <img src="docs/screenshots/all-badges.png" width="300" />
 </p>
 
 ---
