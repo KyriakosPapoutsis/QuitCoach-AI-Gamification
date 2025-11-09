@@ -172,6 +172,8 @@ This repository is published **for academic and demonstration purposes only** an
 
 ---
 
+## 🧩 Folder Structure (simplified)
+
 QuitCoach-AI-Gamification/
 │
 ├── public/ → App assets, icons, manifest, sounds
