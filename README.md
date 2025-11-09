@@ -21,6 +21,110 @@ LangChain + Groq • Capacitor (optional native wrapper)
 
 ## 📱 Screenshots
 
+Below are selected screenshots from the **QuitCoach** app, showcasing its main features, UI, and gamification system.
+
+> The app includes over 40 unique views and components.  
+> For clarity, screenshots are grouped by category.
+
+---
+
+### 🏠 Dashboard & User Overview
+<p align="center">
+  <img src="docs/screenshots/dashboard-1.png" width="350" />
+  <img src="docs/screenshots/dashboard-2.png" width="350" />
+  <img src="docs/screenshots/dashboard-3.png" width="350" />
+  <img src="docs/screenshots/dashboard-4.png" width="350" />
+  <img src="docs/screenshots/dashboard-5.png" width="350" />
+  <img src="docs/screenshots/dashboard-6.png" width="350" />
+  <img src="docs/screenshots/dashboard-7.png" width="350" />
+</p>
+
+---
+
+### 👤 Profile & Customization
+<p align="center">
+  <img src="docs/screenshots/profile-1.png" width="350" />
+  <img src="docs/screenshots/profile-2.png" width="350" />
+  <img src="docs/screenshots/profile-3.png" width="350" />
+  <img src="docs/screenshots/profile-4.png" width="350" />
+  <img src="docs/screenshots/profile-pic-selector.png" width="350" />
+</p>
+
+---
+
+### 🤖 AI Coach & Chat Interface
+<p align="center">
+  <img src="docs/screenshots/chat-1.png" width="350" />
+  <img src="docs/screenshots/chat-2.png" width="350" />
+  <img src="docs/screenshots/chat-3.png" width="350" />
+  <img src="docs/screenshots/chat-4.png" width="350" />
+  <img src="docs/screenshots/chat-5.png" width="350" />
+  <img src="docs/screenshots/chat-6.png" width="350" />
+</p>
+
+---
+
+### 🧩 Daily Challenges & History
+<p align="center">
+  <img src="docs/screenshots/challenges-1.png" width="350" />
+  <img src="docs/screenshots/challenges-2.png" width="350" />
+  <img src="docs/screenshots/challenges-3.png" width="350" />
+</p>
+
+---
+
+### 🏅 Badges, Progress & Gamification
+<p align="center">
+  <img src="docs/screenshots/badges-1.png" width="350" />
+  <img src="docs/screenshots/badges-2.png" width="350" />
+  <img src="docs/screenshots/badges-3.png" width="350" />
+  <img src="docs/screenshots/badges-4.png" width="350" />
+  <img src="docs/screenshots/badges-5.png" width="350" />
+  <img src="docs/screenshots/badges-6.png" width="350" />
+  <img src="docs/screenshots/badges-7.png" width="350" />
+  <img src="docs/screenshots/badges-8.png" width="350" />
+  <img src="docs/screenshots/all-badges.png" width="350" />
+</p>
+
+---
+
+### 🗓️ Daily Log & Report Card
+<p align="center">
+  <img src="docs/screenshots/dailylog-1.png" width="350" />
+  <img src="docs/screenshots/dailylog-2.png" width="350" />
+  <img src="docs/screenshots/dailylog-3.png" width="350" />
+  <img src="docs/screenshots/dailylog-reportcard-1.png" width="350" />
+  <img src="docs/screenshots/dailylog-reportcard-2.png" width="350" />
+  <img src="docs/screenshots/dailylog-reportcard-3.png" width="350" />
+  <img src="docs/screenshots/dailylog-reportcard-4.png" width="350" />
+</p>
+
+---
+
+### 🔔 Leaderboards & Community
+<p align="center">
+  <img src="docs/screenshots/leaderboard-1.png" width="350" />
+  <img src="docs/screenshots/leaderboard-2.png" width="350" />
+  <img src="docs/screenshots/leaderboard-3.png" width="350" />
+  <img src="docs/screenshots/community.png" width="350" />
+  <img src="docs/screenshots/motivation-wall-1.png" width="350" />
+  <img src="docs/screenshots/motivation-wall-2.png" width="350" />
+  <img src="docs/screenshots/motivation-wall-3.png" width="350" />
+  <img src="docs/screenshots/motivation-wall-4.png" width="350" />
+</p>
+
+---
+
+### 📱 Additional Screens (Sign In, Sign Up, Notifications)
+<p align="center">
+  <img src="docs/screenshots/signin.png" width="300" />
+  <img src="docs/screenshots/signup.png" width="300" />
+  <img src="docs/screenshots/notifications.png" width="300" />
+</p>
+
+---
+
+> 💡 *All screenshots are from the development build of the QuitCoach PWA and serve academic demonstration purposes.*
 
 ---
 
