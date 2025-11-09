@@ -1,0 +1,423 @@
+[
+  {
+    "title": "Call the quitline (1-800-QUIT-NOW)",
+    "description": "Call the free quitline for personalized coaching and a quit plan.",
+    "category": "social",
+    "difficulty": "easy",
+    "points": 20,
+    "source_org": "CDC",
+    "source": "https://www.cdc.gov/tobacco/tobacco-features/quitlines.html",
+    "coachPrompt": "I want to use the quitline. Help me list questions to ask a quit coach and schedule my first call."
+  },
+  {
+    "title": "Learn more about SmokefreeTXT",
+    "description": "Educate yourself and consider enrolling in the free SMS program for daily tips and craving support.",
+    "category": "habits",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "AJPM - American Journal of Preventive Medicine",
+    "source": "https://www.ajpmonline.org/article/S0749-3797(20)30381-0/fulltext",
+    "coachPrompt": "I’m thinking of signing up for SmokefreeTXT. Help me set goals for this endeavour."
+  },
+  {
+    "title": "Practice the 4 Ds",
+    "description": "Use Delay, Deep breathing, Drink water, and Do something else when an urge appears.",
+    "category": "mental",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "Australian Dept. of Health",
+    "source": "https://www.health.gov.au/resources/publications/quit-for-good-today-and-give-your-baby-a-healthy-start-poster",
+    "coachPrompt": "Build me a 4-Ds action card I can screenshot and use during cravings."
+  },
+  {
+    "title": "Lose the smoking essentials",
+    "description": "Get rid of things that you use while smoking like lighters, matches, and ashtrays.",
+    "category": "physical",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "CDC",
+    "source": "https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/tips-for-quitting/#make-your-environment-work",
+    "coachPrompt": "Give me a list of the smoking essentials that i should get rid of."
+  },
+  {
+    "title": "Deep-breathing set (x10)",
+    "description": "Inhale slowly through the nose, exhale through the mouth—repeat 10 times.",
+    "category": "mental",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "Science Direct",
+    "source": "https://www.sciencedirect.com/science/article/abs/pii/S0306460304000127?via%3Dihub",
+    "coachPrompt": "Guide me through a 2-minute breathing script I can follow during urges."
+  },
+  {
+    "title": "Keep a mouth-busy kit",
+    "description": "Carry sugar-free gum, a straw, crunchy snacks, and water for hand-to-mouth urges.",
+    "category": "habits",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/challenges-when-quitting/cravings-triggers/how-manage-cravings",
+    "coachPrompt": "Help me assemble a pocket ‘craving kit’ with 5 items and how to use them."
+  },
+  {
+    "title": "Ask for support today",
+    "description": "Tell a friend/family member you’re quitting and ask for smoke-free support.",
+    "category": "social",
+    "difficulty": "medium",
+    "points": 20,
+    "source_org": "CDC",
+    "source": "https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/tips-for-quitting/#make-your-environment-work",
+    "coachPrompt": "Draft me a short message to ask a friend for daily check-ins this week."
+  },
+  {
+    "title": "Plan a small reward",
+    "description": "Choose a healthy reward you’ll do tonight for staying smoke-free.",
+    "category": "social",
+    "difficulty": "medium",
+    "points": 20,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/tools-tips/build-your-quit-plan",
+    "coachPrompt": "Help me choose 5 small, non-food rewards and when to use each."
+  },
+  {
+    "title": "Counseling session (any format)",
+    "description": "Schedule a phone, chat, or in-person counseling session—counseling boosts success.",
+    "category": "social",
+    "difficulty": "medium",
+    "points": 20,
+    "source_org": "USPSTF - U.S.Preventive Services Task Force",
+    "source": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions",
+    "coachPrompt": "Help me prepare 5 topics to cover in a first counseling session."
+  },
+  {
+    "title": "Delay the urge (5 minutes)",
+    "description": "When the urge hits, set a 5-minute timer and do a quick task until it fades.",
+    "category": "mental",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "Australian Dept. of Health",
+    "source": "https://www.health.gov.au/resources/publications/quit-for-good-today-and-give-your-baby-a-healthy-start-poster",
+    "coachPrompt": "List 10 five-minute tasks I can do anywhere to ride out urges."
+  },
+  {
+    "title": "Hydration habit",
+    "description": "Carry a water bottle and take 5 sips when you notice a trigger.",
+    "category": "habits",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/challenges-when-quitting/cravings-triggers/how-manage-cravings",
+    "coachPrompt": "Create a ‘drink water’ cue plan tied to my usual trigger times."
+  },
+  {
+    "title": "Stairs or squats burst",
+    "description": "Do one short bout of stairs or 20 squats when a craving surges.",
+    "category": "physical",
+    "difficulty": "medium",
+    "points": 20,
+    "source_org": "CDC",
+    "source": "https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/tips-for-quitting/#make-your-environment-work",
+    "coachPrompt": "Design a 3-minute ‘urge circuit’ I can do at home or work."
+  },
+
+  {
+    "title": "Reasons to quit card",
+    "description": "List your top five reasons to quit and read them during urges.",
+    "category": "mental",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/tools-tips/build-your-quit-plan",
+    "coachPrompt": "Turn my quit reasons into a short mantra I can save as a lock-screen."
+  },
+  {
+    "title": "Chat with an NCI counselor",
+    "description": "Use live online chat with a trained counselor for quick help.",
+    "category": "social",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "NCI",
+    "source": "https://livehelp.cancer.gov",
+    "coachPrompt": "Draft my opening message for live chat describing my triggers and goals."
+  },
+  {
+    "title": "Set a quit date (within 2 weeks)",
+    "description": "Pick a quit day soon and put it on your calendar.",
+    "category": "habits",
+    "difficulty": "medium",
+    "points": 20,
+    "source_org": "CDC",
+    "source": "https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/build-your-quit-plan/index.html",
+    "coachPrompt": "Help me choose a quit date and list what to prep before that day."
+  },
+  {
+    "title": "Clear your environment",
+    "description": "Remove tobacco, lighters, and ashtrays from home, car, and work.",
+    "category": "habits",
+    "difficulty": "medium",
+    "points": 20,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/tools-tips/build-your-quit-plan",
+    "coachPrompt": "Make me a checklist for clearing smoking items from my spaces."
+  },
+  {
+    "title": "Clean home & car of smoke smell",
+    "description": "Wash fabrics and air out spaces to reduce cues linked to smoking.",
+    "category": "habits",
+    "difficulty": "medium",
+    "points": 20,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/tools-tips/build-your-quit-plan",
+    "coachPrompt": "Give me a 30-minute cleaning sprint plan for my car or bedroom."
+  },
+  {
+    "title": "Change your morning routine",
+    "description": "Swap a usual smoking slot for a quick walk or shower + water.",
+    "category": "habits",
+    "difficulty": "medium",
+    "points": 20,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/challenges-when-quitting/cravings-triggers/how-manage-cravings",
+    "coachPrompt": "Suggest a 10-minute smoke-free morning routine that fits my schedule."
+  },
+  {
+    "title": "After-meal routine swap",
+    "description": "Go for a 5–10 minute walk or brush your teeth after eating.",
+    "category": "habits",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/challenges-when-quitting/cravings-triggers/how-manage-cravings",
+    "coachPrompt": "Give me two post-meal routines to prevent automatic smoking."
+  },
+  {
+    "title": "Limit alcohol early on",
+    "description": "Alcohol can trigger smoking; choose a non-alcoholic option tonight.",
+    "category": "habits",
+    "difficulty": "medium",
+    "points": 20,
+    "source_org": "NHS",
+    "source": "https://www.nhs.uk/live-well/quit-smoking/10-self-help-tips-to-stop-smoking/",
+    "coachPrompt": "Help me plan alcohol-free alternatives for the next two weeks."
+  },
+  {
+    "title": "Swap one coffee today",
+    "description": "If coffee is a trigger, replace one cup with tea or water.",
+    "category": "habits",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "NHS",
+    "source": "https://www.nhs.uk/live-well/quit-smoking/10-self-help-tips-to-stop-smoking/",
+    "coachPrompt": "Suggest caffeine swaps that won’t spike cravings."
+  },
+  {
+    "title": "3-minute mindfulness",
+    "description": "Do a short mindfulness practice to surf cravings without reacting.",
+    "category": "mental",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/challenges-when-quitting/cravings-triggers/how-manage-cravings",
+    "coachPrompt": "Walk me through a 3-minute mindfulness script for urges."
+  },
+  {
+    "title": "Progressive muscle relaxation",
+    "description": "Tense–release major muscle groups to reduce stress and urges.",
+    "category": "mental",
+    "difficulty": "medium",
+    "points": 20,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/challenges-when-quitting/cravings-triggers/how-manage-cravings",
+    "coachPrompt": "Give me a 5-minute progressive muscle relaxation routine."
+  },
+  {
+    "title": "Craving log (3 urges)",
+    "description": "Record time, place, feeling, and what helped for three urges today.",
+    "category": "mental",
+    "difficulty": "hard",
+    "points": 30,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/challenges-when-quitting/cravings-triggers/how-manage-cravings",
+    "coachPrompt": "Turn my craving logs into patterns and personalized coping ideas."
+  },
+  {
+    "title": "Text a supporter ‘I need 5’",
+    "description": "Ask a buddy for a five-minute check-in during your next craving.",
+    "category": "social",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/tools-tips/build-your-quit-plan",
+    "coachPrompt": "Draft a short text to ask a friend for quick check-ins."
+  },
+  {
+    "title": "Hands-busy kit",
+    "description": "Pack a stress ball, pen, paperclips, or fidget to occupy your hands.",
+    "category": "habits",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/challenges-when-quitting/cravings-triggers/how-manage-cravings",
+    "coachPrompt": "List 6 hand-busy items and when to use each."
+  },
+  {
+    "title": "Brush teeth to reset",
+    "description": "Brush teeth or use mouthwash when a craving hits to change taste cues.",
+    "category": "habits",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "NHS",
+    "source": "https://www.nhs.uk/live-well/quit-smoking/10-self-help-tips-to-stop-smoking/",
+    "coachPrompt": "Create a hygiene reset routine for post-meal or evening cravings."
+  },
+  {
+    "title": "Savings jar plan",
+    "description": "Put today’s ‘not-smoked’ money into a visible jar or savings app.",
+    "category": "habits",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/tools-tips/build-your-quit-plan",
+    "coachPrompt": "Help me set a weekly savings goal and reward ladder."
+  },
+  {
+    "title": "High-risk event plan",
+    "description": "Plan what you’ll say/do at social events where others smoke.",
+    "category": "social",
+    "difficulty": "medium",
+    "points": 20,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/challenges-when-quitting/cravings-triggers/how-manage-cravings",
+    "coachPrompt": "Write two scripts to say no politely when offered a cigarette."
+  },
+  {
+    "title": "Wash smoke-scented clothes",
+    "description": "Launder jackets and clothes that smell like smoke to remove cues.",
+    "category": "habits",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/tools-tips/build-your-quit-plan",
+    "coachPrompt": "Make me a 20-minute laundry + tidy checklist to cut cues."
+  },
+  {
+    "title": "Smoke-free home & car rule",
+    "description": "Make your spaces smoke-free and ask others to respect the rule.",
+    "category": "social",
+    "difficulty": "medium",
+    "points": 20,
+    "source_org": "CDC",
+    "source": "https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/build-your-quit-plan/index.html",
+    "coachPrompt": "Draft a message asking housemates to keep our home smoke-free."
+  },
+  {
+    "title": "Non-alcoholic drink swap",
+    "description": "Order a non-alcoholic drink tonight to avoid a smoking trigger.",
+    "category": "habits",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "NHS",
+    "source": "https://www.nhs.uk/live-well/quit-smoking/10-self-help-tips-to-stop-smoking/",
+    "coachPrompt": "Suggest three alcohol-free drinks I can order socially."
+  },
+  {
+    "title": "Quit reasons reminder",
+    "description": "Set a phone reminder with one reason to quit at a trigger time.",
+    "category": "mental",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/tools-tips/build-your-quit-plan",
+    "coachPrompt": "Turn my reasons to quit into 3 short notifications I’ll see daily."
+  },
+  {
+    "title": "Travel craving kit",
+    "description": "Pack gum, water, and a fidget for commuting or travel days.",
+    "category": "habits",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/challenges-when-quitting/cravings-triggers/how-manage-cravings",
+    "coachPrompt": "Make me a pocket travel kit checklist and when to use it."
+  },
+  {
+    "title": "Urge surfing (3 minutes)",
+    "description": "Notice the craving rise and fall without acting—name the sensations.",
+    "category": "mental",
+    "difficulty": "medium",
+    "points": 20,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/challenges-when-quitting/cravings-triggers/how-manage-cravings",
+    "coachPrompt": "Coach me through a 3-minute urge-surfing exercise with cues."
+  },
+  {
+    "title": "Exercise snack for urges",
+    "description": "Do 3–5 minutes of light cardio; exercise can reduce urge intensity.",
+    "category": "physical",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "Cochrane Review",
+    "source": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD002295.pub6/full",
+    "coachPrompt": "Give me a 4-minute ‘exercise snack’ routine for strong cravings."
+  },
+  {
+    "title": "Plan your ‘smoke break’ replacement",
+    "description": "Schedule a 5-minute walk or stretch instead of a smoke break.",
+    "category": "habits",
+    "difficulty": "medium",
+    "points": 20,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/challenges-when-quitting/cravings-triggers/how-manage-cravings",
+    "coachPrompt": "Help me script three short break routines I can rotate at work."
+  },
+  {
+    "title": "Do a good deed today",
+    "description": "Try distracting yourself for a few minutes by being helpful to a friend, family member, or co-worker.",
+    "category": "mental",
+    "difficulty": "medium",
+    "points": 20,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/stay-smokefree/relapse/relapse-prevention",
+    "coachPrompt": "Draft a slip-recovery plan with 3 steps and a supportive message to myself."
+  },
+  {
+    "title": "Post-meal mint or gum",
+    "description": "Use sugar-free mint/gum after meals to change taste cues.",
+    "category": "habits",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/challenges-when-quitting/cravings-triggers/how-manage-cravings",
+    "coachPrompt": "Suggest a post-meal mini-routine with mint/gum and a short walk."
+  },
+  {
+    "title": "Morning hydration first",
+    "description": "Drink a full glass of water right after waking before coffee.",
+    "category": "habits",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "Smokefree.gov",
+    "source": "https://smokefree.gov/challenges-when-quitting/cravings-triggers/how-manage-cravings",
+    "coachPrompt": "Create a 3-step ‘first thing’ routine to reduce morning urges."
+  },
+  {
+    "title": "Get rid of that smell",
+    "description": "Wash your clothes and anything else that smells of tobacco smoke.",
+    "category": "physical",
+    "difficulty": "easy",
+    "points": 10,
+    "source_org": "CDC",
+    "source": "https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/tips-for-quitting/#make-your-environment-work",
+    "coachPrompt": "Give me a list of all items that might smell like tobacco smoke so i can clean them."
+  },
+  {
+    "title": "Plan a supportive walk with someone",
+    "description": "Invite a friend for a 15-minute walk to combine movement + support.",
+    "category": "social",
+    "difficulty": "medium",
+    "points": 20,
+    "source_org": "CDC",
+    "source": "https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/tips-for-quitting/#make-your-environment-work",
+    "coachPrompt": "Draft a text inviting a friend for a quick support walk this week."
+  }
+]

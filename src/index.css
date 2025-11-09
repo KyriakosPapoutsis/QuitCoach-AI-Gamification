@@ -1,0 +1,237 @@
+/* index.css
+ * 
+ * Purpose:
+ * - Base stylesheet for the app, built on TailwindCSS.
+ * - Defines layout rules, frosted surfaces, gradient themes, neon accents, and keyboard-safe spacing.
+ *
+ * Notes:
+ * - Imports Tailwind utilities first.
+ * - Customizes scroll, background, and motion behaviors.
+ */
+
+@import "tailwindcss";
+
+html, body, #root { 
+  height: 100%; 
+  background: #0c0f14; /* soft black */
+}
+/* Disable glow/bounce on browsers that support it (Chrome/Edge/Firefox, iOS 16+ Safari) */
+html, body { overscroll-behavior-y: none; }
+body { overflow-y: auto; -webkit-overflow-scrolling: touch; } /* momentum scroll on iOS */
+
+/* The one scrollable container */
+.app-scroll {
+  height: 100%;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+:root {
+  /* Unified radius to echo the nav’s soft feel */
+  --ui-radius: 20px; /* tweak 18–24px to taste */
+}
+
+/* Frosted/glassy card — mirrors the bottom navbar’s vibe */
+.frost-surface {
+  position: relative;
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(22px) saturate(160%);
+  -webkit-backdrop-filter: blur(22px) saturate(160%);
+  border: 1px solid rgba(255,255,255,0.22);
+  border-radius: var(--ui-radius);
+  box-shadow:
+    0 10px 28px rgba(0,0,0,.35),
+    inset 0 0 0 1px rgba(255,255,255,0.08);
+  overflow: hidden;
+}
+
+/* Subtle sheen/ink, same language as tray’s conic glow */
+.frost-surface::before {
+  content: "";
+  position: absolute; inset: -12%;
+  border-radius: inherit;
+  background:
+    conic-gradient(from 0deg,
+      rgba(255,120,120,.18),
+      rgba(120,150,255,.18),
+      rgba(120,255,185,.18),
+      rgba(255,120,210,.18),
+      rgba(255,120,120,.18));
+  filter: blur(18px) saturate(180%);
+  mix-blend-mode: screen;
+  opacity: .25;
+  pointer-events: none;
+}
+
+/* Soft inner highlight like the tray */
+.frost-surface::after {
+  content: "";
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(110% 100% at 10% 0%, rgba(255,255,255,.18), transparent 58%),
+    linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.02));
+  pointer-events: none;
+}
+
+/* Optional hover for clickable cards */
+.frost-hover:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 14px 32px rgba(0,0,0,.38),
+    0 0 26px rgba(140,170,255,.22);
+  transition: transform .16s ease, box-shadow .16s ease;
+}
+
+
+.text-hero-gradient {
+  background: var(--hero-grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.progress-hero-gradient {
+  background: var(--hero-grad);
+}
+
+.hero-gradient-bg {
+  background: var(--hero-grad);
+}
+
+:root {
+  --hero-grad: linear-gradient(90deg, #42275a 0%, #734b6d 100%);
+  --hero-grad-first: #42275a;
+}
+
+
+.hero-accent-glow {
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.8),
+               0 0 12px rgba(255, 255, 255, 0.5);
+}
+
+.hero-icon-glow {
+  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.8));
+}
+
+#hero-gradient-stroke stop:nth-child(1) {
+  stop-color: var(--hero-grad-stop-1);
+}
+#hero-gradient-stroke stop:nth-child(2) {
+  stop-color: var(--hero-grad-stop-2);
+}
+
+/* Slower, outside-only glow using drop-shadow (respects PNG transparency) */
+.badge-glow-anim {
+  /* start values */
+  --glow1: 9px;   /* tight rim */
+  --glow2: 12px;  /* soft halo */
+  filter:
+    drop-shadow(0 0 var(--glow1) rgba(255,255,255,0.65))
+    drop-shadow(0 0 var(--glow2) rgba(255,255,255,0.20));
+  animation: badgeGlowPulse 7s ease-in-out infinite; /* slower + smoother */
+  will-change: filter;
+}
+
+/* both glows breathe a little, very subtle */
+@keyframes badgeGlowPulse {
+  0%, 100% {
+    --glow1: 9px;
+    --glow2: 12px;
+  }
+  50% {
+    --glow1: 11px;
+    --glow2: 18px;
+  }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .neon-border::before,
+  .neon-border::after {
+    animation: none !important;
+  }
+}
+
+/* Attach to the button */
+.neon-border {
+  position: relative;
+  isolation: isolate;
+}
+
+/* Color shimmer only (no rotation/translation) */
+@keyframes neonHue {
+  from { filter: hue-rotate(0deg) saturate(1.2) brightness(1.05); }
+  to   { filter: hue-rotate(360deg) saturate(1.2) brightness(1.05); }
+}
+
+/* Optional: subtle glow breathing */
+@keyframes neonGlow {
+  0%,100% { opacity: 0.55; filter: blur(10px); }
+  50%     { opacity: 0.8;  filter: blur(12px); }
+}
+
+/* Border ring */
+.neon-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 2px;               /* border thickness */
+  border-radius: inherit;
+  background: conic-gradient(from 0deg, #ff00ff, #00ffff, #ffcc00, #ff00ff);
+  /* mask the center so only a ring remains */
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+          mask-composite: exclude;
+
+  pointer-events: none;
+  z-index: 1;
+  /* shimmer colors, ring stays fixed */
+  animation: neonHue 7s linear infinite;
+}
+
+/* Soft outer glow that breathes (optional) */
+.neon-border::after {
+  content: "";
+  position: absolute;
+  inset: -6px;                /* bleed outward for glow */
+  border-radius: inherit;
+  background: conic-gradient(from 0deg, #ff00ff, #00ffff, #ffcc00, #ff00ff);
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+          mask-composite: exclude;
+
+  pointer-events: none;
+  z-index: 0;
+  animation: neonHue 10s linear infinite, neonGlow 3s ease-in-out infinite;
+}
+
+
+
+/* When keyboard is open, hide the bottom nav and pad content above the keyboard */
+.kb-open .bottom-nav {
+  transform: translateY(120%);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform .18s ease, opacity .18s ease;
+}
+
+/* Lift page content just above the keyboard (overrides pb-24) */
+.kb-open main {
+  padding-bottom: calc(var(--kb-height, 0px) + 12px) !important;
+}
+
+/* Optional: disable tray interactions while keyboard is open */
+.kb-open .frost-tray { pointer-events: none; }

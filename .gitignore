@@ -1,0 +1,119 @@
+# -----------------------------
+# Logs & debug output
+# -----------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# -----------------------------
+# Build output
+# -----------------------------
+node_modules/
+dist/
+dist-ssr/
+
+# Framework / tool caches
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+.vitepress/cache/
+.parcel-cache/
+.turbo/
+.cache/
+coverage/
+.nyc_output/
+.eslintcache
+.stylelintcache
+
+# -----------------------------
+# Local overrides
+# -----------------------------
+*.local
+
+# Hosting / platform artifacts
+.vercel/
+.netlify/
+
+# -----------------------------
+# Editors & OS files
+# -----------------------------
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.direnv/
+.envrc
+
+# -----------------------------
+# Firebase / Google admin keys (NEVER COMMIT)
+# -----------------------------
+serviceAccountKey.json
+*.serviceAccountKey.json
+*.service-account.json
+*.admin.json
+*.firebase-admin.json
+firebase-admin.json
+*serviceaccount*.json
+*service-account*.json
+
+# Native mobile Firebase configs (secrets)
+google-services.json            # Android
+GoogleService-Info.plist        # iOS
+
+# Keep these tracked – DO NOT ignore
+# firebase.json                  # project hosting/emulator config
+# firestore.indexes.json         # Firestore indexes
+# firestore.rules                # Firestore rules
+# storage.rules                  # Storage rules
+
+# -----------------------------
+# Secrets, certs, private keys
+# -----------------------------
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+*.keystore
+.netrc
+.npmrc
+.pypirc
+
+# -----------------------------
+# Env files
+# (Ignore all env files, but allow example templates)
+# -----------------------------
+.env
+.env.*
+*.env
+!.env.example
+!.env.*.example
+
+# -----------------------------
+# Capacitor native shells (skip unless maintaining native code)
+# -----------------------------
+android/
+ios/
+www/
+
+# -----------------------------
+# Firebase local state
+# -----------------------------
+.firebase/
+
+# -----------------------------
+# Any accidental dumps or generated matches
+# -----------------------------
+matches.txt
