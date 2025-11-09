@@ -172,27 +172,6 @@ This repository is published **for academic and demonstration purposes only** an
 
 ---
 
-## 🧩 Folder Structure (simplified)
-
-QuitCoach-AI-Gamification/
-│
-├── public/ → App assets, icons, manifest, sounds
-├── src/ → Frontend React components
-│ ├── pages/ → App screens (Dashboard, AIChat, etc.)
-│ ├── components/ → Reusable UI components
-│ ├── services/ → Firestore & logic modules
-│ └── firebase.js → Firebase initialization (env-based)
-│
-├── server/ → Express backend (AI & push services)
-├── challenges_catalog.json → Challenge seed data
-├── seed_challenges.cjs → Script for seeding Firestore
-├── capacitor.config.ts → Capacitor project config
-├── vite.config.js → Vite + PWA setup
-├── tailwind.config.cjs → Tailwind setup
-└── .env.example → Template of environment variables
-
----
-
 ## ⚙️ (Optional) How to Run Locally
 
 > ⚠️ **Note:** The app requires Firebase and API keys to function fully.  
