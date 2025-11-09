@@ -153,18 +153,11 @@ Below are selected screenshots from the **QuitCoach** app, showcasing its main f
 
 ---
 
-## 🧩 Architecture Overview
-Frontend (React/Vite/PWA)
-│
-├── Firebase Auth & Firestore
-│
-├── Express Backend (Node)
-│ ├── /api/push/ → Push registration & sending
-│ ├── /api/ai/coach → AI challenge generation & chat
-│
-└── Scheduler (node-cron)
-├── Daily challenge generation
-└── Reminder notifications
+## 🎨 Design Language
+
+QuitCoach follows a **calm, glass-like design** with translucent panels, soft gradients, and rounded edges to convey clarity and focus.  
+The interface uses **glassmorphism** for depth, paired with a **cool–warm color palette** (blues, purples, teals, and corals) to balance calmness and motivation.  
+All UI elements follow a consistent, minimal design system built with **Tailwind CSS** and **shadcn/ui**, emphasizing readability and a modern, uplifting feel.
 
 ---
 
@@ -213,7 +206,6 @@ QuitCoach-AI-Gamification/
 npm install
 
 ### 3️⃣ Start the backend and frontend
-# Start both at once
 npm run dev:all
 
 ---
