@@ -193,9 +193,9 @@ npm run dev:all
 
 ## 🧠 Potential Future Enhancements
 
-Integration with wearable devices (steps, heart rate)
-Expanded AI conversation flow for deeper behavioral coaching
-Cooperative goals and sharing achievements with the Community
+- Integration with wearable devices (steps, heart rate)
+- Expanded AI conversation flow for deeper behavioral coaching
+- Cooperative goals and sharing achievements with the Community
 
 ---
 
