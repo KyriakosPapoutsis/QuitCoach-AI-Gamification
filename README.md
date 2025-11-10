@@ -1,4 +1,4 @@
-# QuitCoach – AI & Gamification for Smoking Cessation
+# QuitCoach – Information System for Smoking Cessation Support Using GenAI and Gamification
 
 A production‑ready Progressive Web App that helps people quit smoking. Users log cravings and daily status, earn badges, 
 get data‑driven insights, and receive daily challenges and push reminders. The backend provides secure APIs, AI‑assisted 
