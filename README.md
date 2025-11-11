@@ -153,7 +153,7 @@ Below are selected screenshots from the **QuitCoach** app, showcasing its main f
 
 ---
 
-## 🎨 Design Language
+## 🎨 Design Language 
 
 QuitCoach follows a **calm, glass-like design** with translucent panels, soft gradients, and rounded edges to convey clarity and focus.  
 The interface uses **glassmorphism** for depth, paired with a **cool–warm color palette** (blues, purples, teals, and corals) to balance calmness and motivation.  
